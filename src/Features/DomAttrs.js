@@ -1,5 +1,4 @@
 import React from 'react';
-import './DomAttrs.css';
 
 export default function DomAttrs() {
   return (
