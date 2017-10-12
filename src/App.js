@@ -16,20 +16,22 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">React 16 Demonstrations</h1>
         </header>
-        <h2>Fragments</h2>
-        <dl>
-          <Fragment />
-        </dl>
-        <h2>Return a String</h2>
-        <StringReturn />
-        <h2>Error Boundaries</h2>
-        <ErrorBoundary>
-          <ErroringComponent />
-        </ErrorBoundary>
-        <h2>Portals</h2>
-        <PortalContainer domNode={this.c} />
-        <h2>Custom DOM attributes</h2>
-        <DomAttrs />
+        <div className="App-body">
+          <h2>Fragments</h2>
+          <dl>
+            <Fragment />
+          </dl>
+          <h2>Return a String</h2>
+          <StringReturn />
+          <h2>Error Boundaries</h2>
+          <ErrorBoundary>
+            <ErroringComponent />
+          </ErrorBoundary>
+          <h2>Portals</h2>
+          <PortalContainer domNode={this.c} />
+          <h2>Custom DOM attributes</h2>
+          <DomAttrs />
+        </div>
       </div>
     );
   }

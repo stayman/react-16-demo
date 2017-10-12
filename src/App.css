@@ -23,6 +23,10 @@ pre {
   font-size: large;
 }
 
+.App-body {
+  margin: 0 15px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
